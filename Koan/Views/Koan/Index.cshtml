@@ -1,0 +1,28 @@
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    // ViewBag.Title = "Index Page";
+}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/jspm_packages/github/twbs/bootstrap@3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/jspm_packages/npm/font-awesome@4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  </head>
+  <body aurelia-app>
+    <div class="splash">
+      <div class="message">Koan...</div>
+      <i class="fa fa-spinner fa-spin"></i>
+    </div>
+
+    <script src="/jspm_packages/system.js"></script>
+    <script src="/config.js"></script>
+    <script>
+      System.baseUrl = 'dist'; //NOTE: You can move this into the config.js file, if you like.
+      System.import('aurelia-bootstrapper');
+    </script>
+  </body>
+</html>
