@@ -28,7 +28,7 @@ Once you've got that, go to the Koan folder and run these things:
 ```
 kpm restore
 npm install
-jspm install -i
+jspm install -y
 ```
 
 to restore all the packages needed, and then run
