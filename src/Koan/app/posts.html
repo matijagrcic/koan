@@ -1,0 +1,12 @@
+<template>
+  <section>
+    <h2>${heading}</h2>
+    <div class="row" repeat.for="post of posts">
+    	<div class="col-md-12">
+        <h4>${post.Title}</h4>
+        <p>${post.Content}</p>
+        <p class="small">${post.Posted}</p>
+      </div>
+    </div>
+  </section>
+</template>
